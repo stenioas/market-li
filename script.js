@@ -1,4 +1,5 @@
-import market from "./db.json" assert { type: "json" };
+// para uso com arquivo local
+//import market from "./db.json" assert { type: "json" };
 
 const getFinalMarketList = (initialMarketList) => {
   // remove a prop id que não utilizamos
@@ -107,12 +108,13 @@ const rankAscendingList = (arr) => {
   });
 };
 
-// let url =
-//   "https://api.sheety.co/d3a0bd0987cadf495617032c2aa34290/marketList/list";
-// fetch(url)
-//   .then((response) => response.json())
-//   .then((json) => {
-//     $("#json").val(JSON.stringify(json.lista));
-//   });
+let url =
+  "https://api.sheety.co/d3a0bd0987cadf495617032c2aa34290/marketList/list";
+fetch(url)
+  .then((response) => response.json())
+  .then((response) => {
+    $("#json").html(getFinalMarketList(response.list));
+  });
 
-$("#json").html(getFinalMarketList(market.list));
+// para uso com arquivo local db.json
+// $("#json").html(getFinalMarketList(market.list));
