@@ -133,8 +133,30 @@ const rankAscendingList = (arr) => {
 };
 
 const checkbox = document.getElementById("checkbox");
-checkbox.addEventListener("change", () => {
+
+const changeTheme = () => {
   document.body.classList.toggle("dark");
+};
+
+const loadTheme = () => {
+  const isDarkMode = localStorage.getItem("dark");
+
+  if (isDarkMode) {
+    changeTheme();
+  }
+};
+
+loadTheme();
+
+checkbox.addEventListener("change", () => {
+  changeTheme();
+
+  //salva ou remove o dark mode]
+  localStorage.removeItem("dark");
+
+  if (document.body.classList.contains("dark")) {
+    localStorage.setItem("dark", 1);
+  }
 });
 
 $("#data").html(database.data);
