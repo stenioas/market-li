@@ -132,6 +132,13 @@ const rankAscendingList = (arr) => {
   });
 };
 
+const checkbox = document.getElementById("checkbox");
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark");
+});
+
+$("#data").html(database.data);
+
 // utilizando api
 // let url =
 //   "https://api.sheety.co/d3a0bd0987cadf495617032c2aa34290/marketList/list";
@@ -143,5 +150,3 @@ const rankAscendingList = (arr) => {
 
 // utilizando arquivo local db.json
 $("#lista").html(getFinalMarketList(database.lista));
-
-$("#data").html(database.data);
