@@ -1,4 +1,4 @@
-// para uso com arquivo local
+// arquivo database local
 import database from "./db.json" assert { type: "json" };
 
 const getFinalMarketList = (initialMarketList) => {
