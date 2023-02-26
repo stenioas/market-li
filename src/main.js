@@ -37,8 +37,13 @@ const generateFinalListHTML = (obj) => {
     strFinalList = strFinalList.concat(
       `
       <div id="card">
-        <h2 class="card-header">${key.toUpperCase()}</h2>
         <table class="table">
+          <thead>
+            <tr class="table-header-row">
+              <td class="table-header-data">${key.toUpperCase()}</td>
+            </tr>
+          </thead>
+          <tbody>
       `
     );
 
@@ -46,15 +51,15 @@ const generateFinalListHTML = (obj) => {
       strFinalList = strFinalList.concat(
         `
         <tr class="table-row">
+          <td class="table-data rank-${item.rank}">${item.rank}º</td>
+          <td class="table-data produto">${item.produto}</td>
           <td class="table-data tag-${item.rank}">
             ${
               item.rank === 1
-                ? '<span class="material-symbols-outlined">verified</span>'
+                ? '<span class="material-icons">verified</span>'
                 : ""
             }
           </td>
-          <td class="table-data rank-${item.rank}">${item.rank}º</td>
-          <td class="table-data produto">${item.produto}</td>
           <td class="table-data valor">${item.valor.toLocaleString("pt-br", {
             style: "decimal",
             minimumFractionDigits: 2,
@@ -66,6 +71,7 @@ const generateFinalListHTML = (obj) => {
 
     strFinalList = strFinalList.concat(
       `
+          </tbody>
         </table>
       </div>
       `

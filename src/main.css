@@ -6,7 +6,8 @@
   --color-form-highlight: #eeeeee;
   --color-dark: #333333;
   --color-light: #f4f4f4;
-  --color-green: #83b81a;
+  --color-gray: #aac9c7;
+  --color-green: #339933;
   --color-yellow: #d9f2a6;
 }
 
@@ -28,7 +29,7 @@ body {
 
 h1 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 h2 {
@@ -51,22 +52,34 @@ h2 {
 }
 
 .table {
-  margin-top: 0.5rem;
   width: 100%;
-  border: 1px solid #aac9c7;
+  border: 1px solid var(--color-gray);
   border-radius: 0.5rem;
   border-spacing: 0;
   overflow: hidden;
 }
 
+.table-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.table-header-data {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
 .table-row {
   display: flex;
   width: 100%;
-  padding: 0.5rem 1rem 0.5rem 0;
+  padding: 1rem;
 }
 
 .table-row:nth-of-type(odd) {
-  background: var(--color-form-highlight);
+  background-color: var(--color-form-highlight);
 }
 
 .table-data {
@@ -78,7 +91,7 @@ h2 {
 .table-data.tag-3 {
   height: 1.5rem;
   max-width: 2.5rem;
-  text-align: center;
+  text-align: right;
 }
 
 .table-data.tag-1 span {
@@ -93,18 +106,17 @@ h2 {
   align-items: center;
 }
 
-.table-data.rank-1 {
-  font-weight: 500;
-}
-
 .table-data.produto {
   display: flex;
   align-items: center;
-  padding-left: 1rem;
 }
 
 .table-data.valor {
-  max-width: 4rem;
-  font-weight: 500;
-  text-align: right;
+  display: flex;
+  max-width: 3rem;
+  align-items: center;
+  justify-content: right;
+
+  font-family: Lato, sans-serif;
+  font-weight: 400;
 }
