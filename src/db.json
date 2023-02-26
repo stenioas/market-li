@@ -1,0 +1,933 @@
+{
+  "data": "27/02/2023",
+  "lista": [
+    {
+      "valor": 1.89,
+      "produto": "Laranja Pera",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "10/02",
+      "dataFim": "12/02",
+      "id": 2
+    },
+    {
+      "valor": 6.99,
+      "produto": "Maracujá",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "11/02",
+      "dataFim": "13/02",
+      "id": 3
+    },
+    {
+      "valor": 9.99,
+      "produto": "Pitaya",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "12/02",
+      "dataFim": "14/02",
+      "id": 4
+    },
+    {
+      "valor": 9.99,
+      "produto": "Maçã Nacional",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "13/02",
+      "dataFim": "15/02",
+      "id": 5
+    },
+    {
+      "valor": 5.99,
+      "produto": "Pimentão Verde",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "14/02",
+      "dataFim": "16/02",
+      "id": 6
+    },
+    {
+      "valor": 5.99,
+      "produto": "Tomate Comum",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "15/02",
+      "dataFim": "17/02",
+      "id": 7
+    },
+    {
+      "valor": 3.98,
+      "produto": "Beterraba",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "16/02",
+      "dataFim": "18/02",
+      "id": 8
+    },
+    {
+      "valor": 3.98,
+      "produto": "Cebola",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "17/02",
+      "dataFim": "19/02",
+      "id": 9
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Inglesa",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "18/02",
+      "dataFim": "20/02",
+      "id": 10
+    },
+    {
+      "valor": 2.99,
+      "produto": "Abacate",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "19/02",
+      "dataFim": "21/02",
+      "id": 11
+    },
+    {
+      "valor": 4.98,
+      "produto": "Repolho Verde",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "20/02",
+      "dataFim": "22/02",
+      "id": 12
+    },
+    {
+      "valor": 4.98,
+      "produto": "Cenoura",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "21/02",
+      "dataFim": "23/02",
+      "id": 13
+    },
+    {
+      "valor": 2.49,
+      "produto": "Batata Doce",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "22/02",
+      "dataFim": "24/02",
+      "id": 14
+    },
+    {
+      "valor": 2.49,
+      "produto": "Limão Taiti",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "23/02",
+      "dataFim": "25/02",
+      "id": 15
+    },
+    {
+      "valor": 3.98,
+      "produto": "Banana Prata",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "24/02",
+      "dataFim": "26/02",
+      "id": 16
+    },
+    {
+      "valor": 3.98,
+      "produto": "Manga Tommy",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "25/02",
+      "dataFim": "27/02",
+      "id": 17
+    },
+    {
+      "valor": 3.49,
+      "produto": "Mamão Formosa",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "26/02",
+      "dataFim": "28/02",
+      "id": 18
+    },
+    {
+      "valor": 3.49,
+      "produto": "Abacaxi",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "27/02",
+      "dataFim": "01/03",
+      "id": 19
+    },
+    {
+      "valor": 0.69,
+      "produto": "Milho Verde",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "28/02",
+      "dataFim": "02/03",
+      "id": 20
+    },
+    {
+      "valor": 18.9,
+      "produto": "Alho",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "01/03",
+      "dataFim": "03/03",
+      "id": 21
+    },
+    {
+      "valor": 1.98,
+      "produto": "Abobrinha",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "02/03",
+      "dataFim": "04/03",
+      "id": 22
+    },
+    {
+      "valor": 1.98,
+      "produto": "Pepino",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "03/03",
+      "dataFim": "05/03",
+      "id": 23
+    },
+    {
+      "valor": 0.99,
+      "produto": "Côco Verde",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "04/03",
+      "dataFim": "06/03",
+      "id": 24
+    },
+    {
+      "valor": 1.98,
+      "produto": "Abóbora Leite",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "05/03",
+      "dataFim": "07/03",
+      "id": 25
+    },
+    {
+      "valor": 1.98,
+      "produto": "Abóbora Jacaré",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "06/03",
+      "dataFim": "08/03",
+      "id": 26
+    },
+    {
+      "valor": 3.98,
+      "produto": "Goiaba",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "07/03",
+      "dataFim": "09/03",
+      "id": 27
+    },
+    {
+      "valor": 14.99,
+      "produto": "Ovo méd. Branco c/20",
+      "loja": "FRANGOLÂNDIA",
+      "dataIni": "08/03",
+      "dataFim": "10/03",
+      "id": 28
+    },
+    {
+      "valor": 3.98,
+      "produto": "Banana Prata",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "09/03",
+      "dataFim": "11/03",
+      "id": 29
+    },
+    {
+      "valor": 3.98,
+      "produto": "Manga Tommy",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "10/03",
+      "dataFim": "12/03",
+      "id": 30
+    },
+    {
+      "valor": 4.98,
+      "produto": "Repolho Verde",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "11/03",
+      "dataFim": "13/03",
+      "id": 31
+    },
+    {
+      "valor": 4.98,
+      "produto": "Cenoura",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "12/03",
+      "dataFim": "14/03",
+      "id": 32
+    },
+    {
+      "valor": 5.98,
+      "produto": "Pimentão Verde",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "13/03",
+      "dataFim": "15/03",
+      "id": 33
+    },
+    {
+      "valor": 5.98,
+      "produto": "Tomate Comum",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "14/03",
+      "dataFim": "16/03",
+      "id": 34
+    },
+    {
+      "valor": 2.49,
+      "produto": "Batata Doce",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "15/03",
+      "dataFim": "17/03",
+      "id": 35
+    },
+    {
+      "valor": 2.49,
+      "produto": "Limão Taiti",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "16/03",
+      "dataFim": "18/03",
+      "id": 36
+    },
+    {
+      "valor": 1.69,
+      "produto": "Abóbora Leite",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "17/03",
+      "dataFim": "19/03",
+      "id": 37
+    },
+    {
+      "valor": 1.69,
+      "produto": "Abóbora Jacaré",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "18/03",
+      "dataFim": "20/03",
+      "id": 38
+    },
+    {
+      "valor": 1.89,
+      "produto": "Laranja Pera",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "19/03",
+      "dataFim": "21/03",
+      "id": 39
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Inglesa",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "20/03",
+      "dataFim": "22/03",
+      "id": 40
+    },
+    {
+      "valor": 3.98,
+      "produto": "Beterraba",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "21/03",
+      "dataFim": "23/03",
+      "id": 41
+    },
+    {
+      "valor": 3.98,
+      "produto": "Cebola",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "22/03",
+      "dataFim": "24/03",
+      "id": 42
+    },
+    {
+      "valor": 2.98,
+      "produto": "Mamão Formosa",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "23/03",
+      "dataFim": "25/03",
+      "id": 43
+    },
+    {
+      "valor": 2.98,
+      "produto": "Abacate",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "24/03",
+      "dataFim": "26/03",
+      "id": 44
+    },
+    {
+      "valor": 2.99,
+      "produto": "Abacaxi",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "25/03",
+      "dataFim": "27/03",
+      "id": 45
+    },
+    {
+      "valor": 0.69,
+      "produto": "Milho Verde",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "26/03",
+      "dataFim": "28/03",
+      "id": 46
+    },
+    {
+      "valor": 9.99,
+      "produto": "Pitaya",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "27/03",
+      "dataFim": "29/03",
+      "id": 47
+    },
+    {
+      "valor": 9.99,
+      "produto": "Maçã Nacional",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "28/03",
+      "dataFim": "30/03",
+      "id": 48
+    },
+    {
+      "valor": 3.98,
+      "produto": "Goiaba",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "29/03",
+      "dataFim": "31/03",
+      "id": 49
+    },
+    {
+      "valor": 1.98,
+      "produto": "Abobrinha",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "30/03",
+      "dataFim": "01/04",
+      "id": 50
+    },
+    {
+      "valor": 1.98,
+      "produto": "Pepino",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "31/03",
+      "dataFim": "02/04",
+      "id": 51
+    },
+    {
+      "valor": 0.99,
+      "produto": "Côco Verde",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "01/04",
+      "dataFim": "03/04",
+      "id": 52
+    },
+    {
+      "valor": 15.9,
+      "produto": "Alho",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "02/04",
+      "dataFim": "04/04",
+      "id": 53
+    },
+    {
+      "valor": 14.99,
+      "produto": "Ovo méd. Branco c/20",
+      "loja": "MEGA ATACADISTA",
+      "dataIni": "03/04",
+      "dataFim": "05/04",
+      "id": 54
+    },
+    {
+      "valor": 1.88,
+      "produto": "Limão Taiti",
+      "loja": "PINHEIRO",
+      "dataIni": "04/04",
+      "dataFim": "06/04",
+      "id": 55
+    },
+    {
+      "valor": 2.18,
+      "produto": "Laranja Pera",
+      "loja": "PINHEIRO",
+      "dataIni": "05/04",
+      "dataFim": "07/04",
+      "id": 56
+    },
+    {
+      "valor": 13.58,
+      "produto": "Tangerina Clemenville",
+      "loja": "PINHEIRO",
+      "dataIni": "06/04",
+      "dataFim": "08/04",
+      "id": 57
+    },
+    {
+      "valor": 3.28,
+      "produto": "Abacate",
+      "loja": "PINHEIRO",
+      "dataIni": "07/04",
+      "dataFim": "09/04",
+      "id": 58
+    },
+    {
+      "valor": 0.98,
+      "produto": "Côco Verde",
+      "loja": "PINHEIRO",
+      "dataIni": "08/04",
+      "dataFim": "10/04",
+      "id": 59
+    },
+    {
+      "valor": 5.48,
+      "produto": "Mamão Formosa",
+      "loja": "PINHEIRO",
+      "dataIni": "09/04",
+      "dataFim": "11/04",
+      "id": 60
+    },
+    {
+      "valor": 14.8,
+      "produto": "Alho",
+      "loja": "PINHEIRO",
+      "dataIni": "10/04",
+      "dataFim": "12/04",
+      "id": 61
+    },
+    {
+      "valor": 4.28,
+      "produto": "Cebola",
+      "loja": "PINHEIRO",
+      "dataIni": "11/04",
+      "dataFim": "13/04",
+      "id": 62
+    },
+    {
+      "valor": 4.88,
+      "produto": "Tomate Comum",
+      "loja": "PINHEIRO",
+      "dataIni": "12/04",
+      "dataFim": "14/04",
+      "id": 63
+    },
+    {
+      "valor": 3.88,
+      "produto": "Beterraba",
+      "loja": "PINHEIRO",
+      "dataIni": "13/04",
+      "dataFim": "15/04",
+      "id": 64
+    },
+    {
+      "valor": 4.48,
+      "produto": "Batata Inglesa",
+      "loja": "PINHEIRO",
+      "dataIni": "14/04",
+      "dataFim": "16/04",
+      "id": 65
+    },
+    {
+      "valor": 11.99,
+      "produto": "Ameixa Fresca",
+      "loja": "SUPER DO POVO",
+      "dataIni": "15/04",
+      "dataFim": "17/04",
+      "id": 66
+    },
+    {
+      "valor": 2.99,
+      "produto": "Banana Nanica",
+      "loja": "SUPER DO POVO",
+      "dataIni": "16/04",
+      "dataFim": "18/04",
+      "id": 67
+    },
+    {
+      "valor": 1.29,
+      "produto": "Melancia",
+      "loja": "SUPER DO POVO",
+      "dataIni": "17/04",
+      "dataFim": "19/04",
+      "id": 68
+    },
+    {
+      "valor": 3.49,
+      "produto": "Abacate",
+      "loja": "SUPER DO POVO",
+      "dataIni": "18/04",
+      "dataFim": "20/04",
+      "id": 69
+    },
+    {
+      "valor": 2.29,
+      "produto": "Laranja Pera",
+      "loja": "SUPER DO POVO",
+      "dataIni": "19/04",
+      "dataFim": "21/04",
+      "id": 70
+    },
+    {
+      "valor": 11.99,
+      "produto": "Maçã Nacional",
+      "loja": "SUPER DO POVO",
+      "dataIni": "20/04",
+      "dataFim": "22/04",
+      "id": 71
+    },
+    {
+      "valor": 4.99,
+      "produto": "Tomate Comum",
+      "loja": "SUPER DO POVO",
+      "dataIni": "21/04",
+      "dataFim": "23/04",
+      "id": 72
+    },
+    {
+      "valor": 13.99,
+      "produto": "Ovo Extra Branco c/20",
+      "loja": "SUPER DO POVO",
+      "dataIni": "22/04",
+      "dataFim": "24/04",
+      "id": 73
+    },
+    {
+      "valor": 1.89,
+      "produto": "Limão Taiti",
+      "loja": "SUPER DO POVO",
+      "dataIni": "23/04",
+      "dataFim": "25/04",
+      "id": 74
+    },
+    {
+      "valor": 4.99,
+      "produto": "Batata Inglesa",
+      "loja": "SUPER DO POVO",
+      "dataIni": "24/04",
+      "dataFim": "26/04",
+      "id": 75
+    },
+    {
+      "valor": 4.69,
+      "produto": "Cebola",
+      "loja": "SUPER DO POVO",
+      "dataIni": "25/04",
+      "dataFim": "27/04",
+      "id": 76
+    },
+    {
+      "valor": 2.99,
+      "produto": "Repolho Verde",
+      "loja": "SUPER DO POVO",
+      "dataIni": "26/04",
+      "dataFim": "28/04",
+      "id": 77
+    },
+    {
+      "valor": 2.99,
+      "produto": "Chuchu",
+      "loja": "SUPER DO POVO",
+      "dataIni": "27/04",
+      "dataFim": "29/04",
+      "id": 78
+    },
+    {
+      "valor": 5.99,
+      "produto": "Pimentão Verde",
+      "loja": "SUPER DO POVO",
+      "dataIni": "28/04",
+      "dataFim": "30/04",
+      "id": 79
+    },
+    {
+      "valor": 14.9,
+      "produto": "Alho",
+      "loja": "SUPER LAGOA",
+      "dataIni": "29/04",
+      "dataFim": "01/05",
+      "id": 80
+    },
+    {
+      "valor": 3.99,
+      "produto": "Batata Inglesa",
+      "loja": "SUPER LAGOA",
+      "dataIni": "30/04",
+      "dataFim": "02/05",
+      "id": 81
+    },
+    {
+      "valor": 0.99,
+      "produto": "Côco Verde",
+      "loja": "SUPER LAGOA",
+      "dataIni": "01/05",
+      "dataFim": "03/05",
+      "id": 82
+    },
+    {
+      "valor": 3.99,
+      "produto": "Cebola",
+      "loja": "SUPER LAGOA",
+      "dataIni": "02/05",
+      "dataFim": "04/05",
+      "id": 83
+    },
+    {
+      "valor": 3.99,
+      "produto": "Tomate Comum",
+      "loja": "SUPER LAGOA",
+      "dataIni": "03/05",
+      "dataFim": "05/05",
+      "id": 84
+    },
+    {
+      "valor": 0.99,
+      "produto": "Abóbora Jacaré",
+      "loja": "SUPER LAGOA",
+      "dataIni": "04/05",
+      "dataFim": "06/05",
+      "id": 85
+    },
+    {
+      "valor": 0.99,
+      "produto": "Melancia Baby",
+      "loja": "SUPER LAGOA",
+      "dataIni": "05/05",
+      "dataFim": "07/05",
+      "id": 86
+    },
+    {
+      "valor": 1.99,
+      "produto": "Banana Nanica",
+      "loja": "SUPER LAGOA",
+      "dataIni": "06/05",
+      "dataFim": "08/05",
+      "id": 87
+    },
+    {
+      "valor": 1.99,
+      "produto": "Laranja Pera",
+      "loja": "SUPER LAGOA",
+      "dataIni": "07/05",
+      "dataFim": "09/05",
+      "id": 88
+    },
+    {
+      "valor": 2.29,
+      "produto": "Melão Espanhol",
+      "loja": "SUPER LAGOA",
+      "dataIni": "08/05",
+      "dataFim": "10/05",
+      "id": 89
+    },
+    {
+      "valor": 2.29,
+      "produto": "Melão Japonês",
+      "loja": "SUPER LAGOA",
+      "dataIni": "09/05",
+      "dataFim": "11/05",
+      "id": 90
+    },
+    {
+      "valor": 2.29,
+      "produto": "Manga Palmer",
+      "loja": "SUPER LAGOA",
+      "dataIni": "10/05",
+      "dataFim": "12/05",
+      "id": 91
+    },
+    {
+      "valor": 2.99,
+      "produto": "Abacate",
+      "loja": "SUPER LAGOA",
+      "dataIni": "11/05",
+      "dataFim": "13/05",
+      "id": 92
+    },
+    {
+      "valor": 2.99,
+      "produto": "Mamão Formosa",
+      "loja": "SUPER LAGOA",
+      "dataIni": "12/05",
+      "dataFim": "14/05",
+      "id": 93
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Doce",
+      "loja": "SUPER LAGOA",
+      "dataIni": "13/05",
+      "dataFim": "15/05",
+      "id": 94
+    },
+    {
+      "valor": 2.99,
+      "produto": "Manga Tommy",
+      "loja": "SUPER LAGOA",
+      "dataIni": "14/05",
+      "dataFim": "16/05",
+      "id": 95
+    },
+    {
+      "valor": 9.99,
+      "produto": "Maçã Nacional",
+      "loja": "SUPER LAGOA",
+      "dataIni": "15/05",
+      "dataFim": "17/05",
+      "id": 96
+    },
+    {
+      "valor": 1.99,
+      "produto": "Macaxeira",
+      "loja": "SUPER LAGOA",
+      "dataIni": "16/05",
+      "dataFim": "18/05",
+      "id": 97
+    },
+    {
+      "valor": 1.99,
+      "produto": "Abóbora Leite",
+      "loja": "SUPER LAGOA",
+      "dataIni": "17/05",
+      "dataFim": "19/05",
+      "id": 98
+    },
+    {
+      "valor": 13.99,
+      "produto": "Ovo Extra Branco c/20",
+      "loja": "SUPER LAGOA",
+      "dataIni": "18/05",
+      "dataFim": "20/05",
+      "id": 99
+    },
+    {
+      "valor": 1.89,
+      "produto": "Limão Taiti",
+      "loja": "SUPER LAGOA",
+      "dataIni": "19/05",
+      "dataFim": "21/05",
+      "id": 100
+    },
+    {
+      "valor": 7.99,
+      "produto": "Maracujá",
+      "loja": "SUPER LAGOA",
+      "dataIni": "20/05",
+      "dataFim": "22/05",
+      "id": 101
+    },
+    {
+      "valor": 9.9,
+      "produto": "Pitaya",
+      "loja": "SUPER LAGOA",
+      "dataIni": "21/05",
+      "dataFim": "23/05",
+      "id": 102
+    },
+    {
+      "valor": 9.99,
+      "produto": "Pera D'anjou",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "22/05",
+      "dataFim": "24/05",
+      "id": 103
+    },
+    {
+      "valor": 13.99,
+      "produto": "Ovo Extra Branco c/20",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "23/05",
+      "dataFim": "25/05",
+      "id": 104
+    },
+    {
+      "valor": 15.99,
+      "produto": "Tangerina Clemenville",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "24/05",
+      "dataFim": "26/05",
+      "id": 105
+    },
+    {
+      "valor": 9.49,
+      "produto": "Maçã Nacional",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "25/05",
+      "dataFim": "27/05",
+      "id": 106
+    },
+    {
+      "valor": 4.69,
+      "produto": "Tomate Comum",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "26/05",
+      "dataFim": "28/05",
+      "id": 107
+    },
+    {
+      "valor": 1.89,
+      "produto": "Limão Taiti",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "27/05",
+      "dataFim": "29/05",
+      "id": 108
+    },
+    {
+      "valor": 1.69,
+      "produto": "Melancia",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "28/05",
+      "dataFim": "30/05",
+      "id": 109
+    },
+    {
+      "valor": 1.69,
+      "produto": "Melancia Baby",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "29/05",
+      "dataFim": "31/05",
+      "id": 110
+    },
+    {
+      "valor": 2.29,
+      "produto": "Laranja Pera",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "30/05",
+      "dataFim": "01/06",
+      "id": 111
+    },
+    {
+      "valor": 2.99,
+      "produto": "Abacate",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "31/05",
+      "dataFim": "02/06",
+      "id": 112
+    },
+    {
+      "valor": 4.99,
+      "produto": "Cebola",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "01/06",
+      "dataFim": "03/06",
+      "id": 113
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Doce",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "02/06",
+      "dataFim": "04/06",
+      "id": 114
+    },
+    {
+      "valor": 4.49,
+      "produto": "Batata Inglesa",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "03/06",
+      "dataFim": "05/06",
+      "id": 115
+    },
+    {
+      "valor": 18.9,
+      "produto": "Alho",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "04/06",
+      "dataFim": "06/06",
+      "id": 116
+    },
+    {
+      "valor": 1.29,
+      "produto": "Côco Verde",
+      "loja": "SUPER PORTUGAL",
+      "dataIni": "05/06",
+      "dataFim": "07/06",
+      "id": 117
+    }
+  ]
+}

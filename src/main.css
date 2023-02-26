@@ -1,0 +1,110 @@
+:root {
+  --base-spacing-unit: 1rem;
+  --half-spacing-unit: calc(var(--base-spacing-unit) / 2);
+  --double-spacing-unit: calc(var(--base-spacing-unit) * 2);
+  --color-alpha: #1772ff;
+  --color-form-highlight: #eeeeee;
+  --color-dark: #333333;
+  --color-light: #f4f4f4;
+  --color-green: #83b81a;
+  --color-yellow: #d9f2a6;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: Montserrat, sans-serif;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem 1rem 1rem 1rem;
+  max-width: 30rem;
+}
+
+#data-container,
+#lista-container {
+  margin-top: 1rem;
+}
+
+#card {
+  margin-top: 2rem;
+}
+
+.table {
+  margin-top: 0.5rem;
+  width: 100%;
+  border: 1px solid #aac9c7;
+  border-radius: 0.5rem;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.table-row:nth-of-type(odd) {
+  background: var(--color-form-highlight);
+}
+
+.table-data {
+  flex: 1 1 20%;
+}
+
+.table-data.tag-1,
+.table-data.tag-2,
+.table-data.tag-3 {
+  height: 1.5rem;
+  max-width: 2.5rem;
+  text-align: center;
+}
+
+.table-data.tag-1 span {
+  color: var(--color-green);
+}
+
+.table-data.rank-1,
+.table-data.rank-2,
+.table-data.rank-3 {
+  max-width: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.table-data.rank-1 {
+  font-weight: 500;
+}
+
+.table-data.produto {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.table-data.valor {
+  max-width: 4rem;
+  font-weight: 500;
+  text-align: right;
+}

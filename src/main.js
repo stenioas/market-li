@@ -1,5 +1,5 @@
 // para uso com arquivo local
-//import market from "./db.json" assert { type: "json" };
+import database from "./db.json" assert { type: "json" };
 
 const getFinalMarketList = (initialMarketList) => {
   // remove a prop id que não utilizamos
@@ -26,32 +26,50 @@ const getFinalMarketList = (initialMarketList) => {
   const groupedObjectByShop = groupByShop(cleanedRankedList);
 
   // gera a lista final para exibição na tela
-  const finalMarketList = generateTextFinalList(groupedObjectByShop);
+  const finalMarketList = generateFinalListHTML(groupedObjectByShop);
 
   return finalMarketList;
 };
 
-const generateTextFinalList = (obj) => {
+const generateFinalListHTML = (obj) => {
   let strFinalList = "";
   Object.entries(sortAscendingObjectByKey(obj)).map(([key, value]) => {
     strFinalList = strFinalList.concat(
-      "<strong>" + key.toUpperCase() + "</strong><br/>"
+      `
+      <div id="card">
+        <h2 class="card-header">${key.toUpperCase()}</h2>
+        <table class="table">
+      `
     );
+
     sortAscendingListByProduct(value).forEach((item) => {
       strFinalList = strFinalList.concat(
-        item.rank +
-          "º" +
-          "&Tab;|&Tab;" +
-          item.price.toLocaleString("pt-br", {
+        `
+        <tr class="table-row">
+          <td class="table-data tag-${item.rank}">
+            ${
+              item.rank === 1
+                ? '<span class="material-symbols-outlined">verified</span>'
+                : ""
+            }
+          </td>
+          <td class="table-data rank-${item.rank}">${item.rank}º</td>
+          <td class="table-data produto">${item.produto}</td>
+          <td class="table-data valor">${item.valor.toLocaleString("pt-br", {
             style: "decimal",
             minimumFractionDigits: 2,
-          }) +
-          "&Tab;" +
-          item.product +
-          "<br/>"
+          })}</td>
+        </tr>
+        `
       );
     });
-    strFinalList = strFinalList.concat("<br/>");
+
+    strFinalList = strFinalList.concat(
+      `
+        </table>
+      </div>
+      `
+    );
   });
 
   return strFinalList;
@@ -59,7 +77,7 @@ const generateTextFinalList = (obj) => {
 
 const groupByShop = (arr) => {
   return arr.reduce((result, currentValue) => {
-    (result[currentValue.shop] = result[currentValue.shop] || []).push(
+    (result[currentValue.loja] = result[currentValue.loja] || []).push(
       currentValue
     );
     return result;
@@ -68,7 +86,7 @@ const groupByShop = (arr) => {
 
 const groupByProduct = (arr) => {
   return arr.reduce((result, currentValue) => {
-    (result[currentValue.product] = result[currentValue.product] || []).push(
+    (result[currentValue.produto] = result[currentValue.produto] || []).push(
       currentValue
     );
     return result;
@@ -76,12 +94,12 @@ const groupByProduct = (arr) => {
 };
 
 const sortAscendingListByPrice = (arr) =>
-  arr.sort((itemA, itemB) => itemA.price - itemB.price);
+  arr.sort((itemA, itemB) => itemA.valor - itemB.valor);
 
 const sortAscendingListByProduct = (arr) =>
   arr.sort((itemA, itemB) => {
-    const productA = itemA.product.toUpperCase();
-    const productB = itemB.product.toUpperCase();
+    const productA = itemA.produto.toUpperCase();
+    const productB = itemB.produto.toUpperCase();
     if (productA < productB) {
       return -1;
     }
@@ -100,7 +118,7 @@ const sortAscendingObjectByKey = (obj) =>
 const rankAscendingList = (arr) => {
   let rank = 1;
   return sortAscendingListByPrice(arr).map((item, index) => {
-    if (index > 0 && item.price > arr[index - 1].price) {
+    if (index > 0 && item.valor > arr[index - 1].valor) {
       rank++;
     }
     item.rank = rank;
@@ -108,13 +126,16 @@ const rankAscendingList = (arr) => {
   });
 };
 
-let url =
-  "https://api.sheety.co/d3a0bd0987cadf495617032c2aa34290/marketList/list";
-fetch(url)
-  .then((response) => response.json())
-  .then((response) => {
-    $("#json").html(getFinalMarketList(response.list));
-  });
+// utilizando api
+// let url =
+//   "https://api.sheety.co/d3a0bd0987cadf495617032c2aa34290/marketList/list";
+// fetch(url)
+//   .then((response) => response.json())
+//   .then((response) => {
+//     $("#json").html(getFinalMarketList(response.list));
+//   });
 
-// para uso com arquivo local db.json
-// $("#json").html(getFinalMarketList(market.list));
+// utilizando arquivo local db.json
+$("#lista").html(getFinalMarketList(database.lista));
+
+$("#data").html(database.data);
