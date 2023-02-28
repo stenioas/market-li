@@ -3,14 +3,14 @@
   --half-spacing-unit: calc(var(--base-spacing-unit) / 2);
   --double-spacing-unit: calc(var(--base-spacing-unit) * 2);
 
-  --color-bg-light: #f4f4f4;
-  --color-bg-light-highlight: #eeeeee;
+  --color-bg-light: #ffffff;
+  --color-bg-light-highlight: #f6f8fa;
   --color-fg-light: #333333;
-  --color-border-light: #aac9c7;
-  --color-bg-dark: #1d1e22;
-  --color-bg-dark-highlight: #26272c;
+  --color-border-light: #d0d7de;
+  --color-bg-dark: #0d1117;
+  --color-bg-dark-highlight: #161b22;
   --color-fg-dark: #c9d1d9;
-  --color-border-dark: #34363e;
+  --color-border-dark: #30363d;
   --color-primary: #ffd700;
   --color-secondary: #daa520;
 }
