@@ -50,13 +50,13 @@ const generateFinalListHTML = (obj) => {
     sortAscendingListByProduct(value).forEach((item) => {
       strFinalList = strFinalList.concat(
         `
-        <tr class="table-row">
+        <tr class="table-row rank-${item.rank}">
           <td class="table-data rank-${item.rank}">${item.rank}º</td>
           <td class="table-data produto">${item.produto}</td>
           <td class="table-data tag-${item.rank}">
             ${
               item.rank === 1
-                ? '<span class="material-icons">verified</span>'
+                ? '<span class="material-icons">emoji_events</span>'
                 : ""
             }
           </td>
