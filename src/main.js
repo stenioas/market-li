@@ -1,5 +1,501 @@
 // arquivo database local
-import database from "./db.json" assert { type: "json" };
+// import database from "./db.json" assert { type: "json" };
+
+const database = {
+      "valor": 3.99,
+      "produto": "Batata Inglesa",
+      "loja": "SUPER LAGOA",
+      "id": 133
+    },
+    {
+      "valor": 3.99,
+      "produto": "Banana Prata",
+      "loja": "SUPER LAGOA",
+      "id": 134
+    },
+    {
+      "valor": 4.29,
+      "produto": "Cebola",
+      "loja": "SUPER LAGOA",
+      "id": 135
+    },
+    {
+      "valor": 4.49,
+      "produto": "Tomate Comum",
+      "loja": "SUPER LAGOA",
+      "id": 136
+    },
+    {
+      "valor": 1.89,
+      "produto": "Limão Taiti",
+      "loja": "SUPER LAGOA",
+      "id": 137
+    },
+    {
+      "valor": 1.89,
+      "produto": "Macaxeira",
+      "loja": "SUPER LAGOA",
+      "id": 138
+    },
+    {
+      "valor": 1.99,
+      "produto": "Laranja Pera",
+      "loja": "SUPER LAGOA",
+      "id": 139
+    },
+    {
+      "valor": 2.49,
+      "produto": "Melão Espanhol",
+      "loja": "SUPER LAGOA",
+      "id": 140
+    },
+    {
+      "valor": 2.49,
+      "produto": "Melão Japonês",
+      "loja": "SUPER LAGOA",
+      "id": 141
+    },
+    {
+      "valor": 2.49,
+      "produto": "Melão Gália",
+      "loja": "SUPER LAGOA",
+      "id": 142
+    },
+    {
+      "valor": 3.29,
+      "produto": "Abacate",
+      "loja": "SUPER LAGOA",
+      "id": 143
+    },
+    {
+      "valor": 3.29,    {
+      "valor": 3.99,
+      "produto": "Batata Inglesa",
+      "loja": "SUPER LAGOA",
+      "id": 133
+    },
+    {
+      "valor": 3.99,
+      "produto": "Banana Prata",
+      "loja": "SUPER LAGOA",
+      "id": 134
+    },
+    {
+      "valor": 4.29,
+      "produto": "Cebola",
+      "loja": "SUPER LAGOA",
+      "id": 135
+    },
+    {
+      "valor": 4.49,
+      "produto": "Tomate Comum",
+      "loja": "SUPER LAGOA",
+      "id": 136
+    },
+    {
+      "valor": 1.89,
+      "produto": "Limão Taiti",
+      "loja": "SUPER LAGOA",
+      "id": 137
+    },
+    {
+      "valor": 1.89,
+      "produto": "Macaxeira",
+      "loja": "SUPER LAGOA",
+      "id": 138
+    },
+    {
+      "valor": 1.99,
+      "produto": "Laranja Pera",
+      "loja": "SUPER LAGOA",
+      "id": 139
+    },
+    {
+      "valor": 2.49,
+      "produto": "Melão Espanhol",
+      "loja": "SUPER LAGOA",
+      "id": 140
+    },
+    {
+      "valor": 2.49,
+      "produto": "Melão Japonês",
+      "loja": "SUPER LAGOA",
+      "id": 141
+    },
+    {
+      "valor": 2.49,
+      "produto": "Melão Gália",
+      "loja": "SUPER LAGOA",
+      "id": 142
+    },
+    {
+      "valor": 3.29,
+      "produto": "Abacate",
+      "loja": "SUPER LAGOA",
+      "id": 143
+    },
+    {
+      "valor": 3.29,
+      "produto": "Batata Doce",
+      "loja": "SUPER LAGOA",
+      "id": 144
+    },
+    {
+      "valor": 3.49,
+      "produto": "Mamão Formosa",
+      "loja": "SUPER LAGOA",
+      "id": 145
+    },
+    {
+      "valor": 3.49,
+      "produto": "Manga Tommy",
+      "loja": "SUPER LAGOA",
+      "id": 146
+    },
+    {
+      "valor": 3.99,
+      "produto": "Acerola 500g",
+      "loja": "SUPER LAGOA",
+      "id": 147
+    },
+    {
+      "valor": 3.99,
+      "produto": "Batata Doce",
+      "loja": "SUPER LAGOA",
+      "id": 148
+    },
+    {
+      "valor": 7.99,
+      "produto": "Uva Vitótia 500g",
+      "loja": "SUPER LAGOA",
+      "id": 149
+    },
+    {
+      "valor": 7.99,
+      "produto": "Maracujá",
+      "loja": "SUPER LAGOA",
+      "id": 150
+    },
+    {
+      "valor": 4.99,
+      "produto": "Repolho Verde",
+      "loja": "SUPER LAGOA",
+      "id": 151
+    },
+    {
+      "valor": 14.99,
+      "produto": "Ovo Extra Branco c/20",
+      "loja": "SUPER LAGOA",
+      "id": 152
+    },
+    {
+      "valor": 2.29,
+      "produto": "Mamão Formosa",
+      "loja": "SUPER PORTUGAL",
+      "id": 153
+    },
+    {
+      "valor": 4.19,
+      "produto": "Batata Inglesa",
+      "loja": "SUPER PORTUGAL",
+      "id": 154
+    },
+    {
+      "valor": 3.49,
+      "produto": "Goiaba",
+      "loja": "SUPER PORTUGAL",
+      "id": 155
+    },
+    {
+      "valor": 2.99,
+      "produto": "Melão Japonês",
+      "loja": "SUPER PORTUGAL",
+      "id": 156
+    },
+    {
+      "valor": 2.29,
+      "produto": "Laranja Pera",
+      "loja": "SUPER PORTUGAL",
+      "id": 157
+    },
+    {
+      "valor": 1.69,
+      "produto": "Melancia",
+      "loja": "SUPER PORTUGAL",
+      "id": 158
+    },
+    {
+      "valor": 2.99,
+      "produto": "Beterraba",
+      "loja": "SUPER PORTUGAL",
+      "id": 159
+    },
+    {
+      "valor": 4.79,
+      "produto": "Cebola",
+      "loja": "SUPER PORTUGAL",
+      "id": 160
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Doce",
+      "loja": "SUPER PORTUGAL",
+      "id": 161
+    },
+    {
+      "valor": 6.69,
+      "produto": "Cenoura",
+      "loja": "SUPER PORTUGAL",
+      "id": 162
+    },
+    {
+      "valor": 2.99,
+      "produto": "Acerola 500g",
+      "loja": "SUPER PORTUGAL",
+      "id": 163
+    },
+    {
+      "valor": 2.79,
+      "produto": "Mamão Formosa",
+      "loja": "UNI REDE",
+      "id": 164
+    },
+    {
+      "valor": 3.29,
+      "produto": "Goiaba",
+      "loja": "UNI REDE",
+      "id": 165
+    },
+    {
+      "valor": 4.69,
+      "produto": "Batata Inglesa",
+      "loja": "UNI REDE",
+      "id": 166
+    },
+    {
+      "valor": 4.79,
+      "produto": "Cebola",
+      "loja": "UNI REDE",
+      "id": 167
+    },
+    {
+      "valor": 19.9,
+      "produto": "Alho",
+      "loja": "UNI REDE",
+      "id": 168
+    },
+    {
+      "valor": 2.39,
+      "produto": "Laranja Pera",
+      "loja": "UNI REDE",
+      "id": 169
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Doce",
+      "loja": "UNI REDE",
+      "id": 170
+    },
+    {
+      "valor": 3.39,
+      "produto": "Abacate",
+      "loja": "UNI REDE",
+      "id": 171
+    },
+    {
+      "valor": 5.49,
+      "produto": "Pimentão Verde",
+      "loja": "UNI REDE",
+      "id": 172
+    },
+    {
+      "valor": 5.89,
+      "produto": "Tomate Comum",
+      "loja": "UNI REDE",
+      "id": 173
+    }
+  ]
+}
+      "produto": "Batata Doce",
+      "loja": "SUPER LAGOA",
+      "id": 144
+    },
+    {
+      "valor": 3.49,
+      "produto": "Mamão Formosa",
+      "loja": "SUPER LAGOA",
+      "id": 145
+    },
+    {
+      "valor": 3.49,
+      "produto": "Manga Tommy",
+      "loja": "SUPER LAGOA",
+      "id": 146
+    },
+    {
+      "valor": 3.99,
+      "produto": "Acerola 500g",
+      "loja": "SUPER LAGOA",
+      "id": 147
+    },
+    {
+      "valor": 3.99,
+      "produto": "Batata Doce",
+      "loja": "SUPER LAGOA",
+      "id": 148
+    },
+    {
+      "valor": 7.99,
+      "produto": "Uva Vitótia 500g",
+      "loja": "SUPER LAGOA",
+      "id": 149
+    },
+    {
+      "valor": 7.99,
+      "produto": "Maracujá",
+      "loja": "SUPER LAGOA",
+      "id": 150
+    },
+    {
+      "valor": 4.99,
+      "produto": "Repolho Verde",
+      "loja": "SUPER LAGOA",
+      "id": 151
+    },
+    {
+      "valor": 14.99,
+      "produto": "Ovo Extra Branco c/20",
+      "loja": "SUPER LAGOA",
+      "id": 152
+    },
+    {
+      "valor": 2.29,
+      "produto": "Mamão Formosa",
+      "loja": "SUPER PORTUGAL",
+      "id": 153
+    },
+    {
+      "valor": 4.19,
+      "produto": "Batata Inglesa",
+      "loja": "SUPER PORTUGAL",
+      "id": 154
+    },
+    {
+      "valor": 3.49,
+      "produto": "Goiaba",
+      "loja": "SUPER PORTUGAL",
+      "id": 155
+    },
+    {
+      "valor": 2.99,
+      "produto": "Melão Japonês",
+      "loja": "SUPER PORTUGAL",
+      "id": 156
+    },
+    {
+      "valor": 2.29,
+      "produto": "Laranja Pera",
+      "loja": "SUPER PORTUGAL",
+      "id": 157
+    },
+    {
+      "valor": 1.69,
+      "produto": "Melancia",
+      "loja": "SUPER PORTUGAL",
+      "id": 158
+    },
+    {
+      "valor": 2.99,
+      "produto": "Beterraba",
+      "loja": "SUPER PORTUGAL",
+      "id": 159
+    },
+    {
+      "valor": 4.79,
+      "produto": "Cebola",
+      "loja": "SUPER PORTUGAL",
+      "id": 160
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Doce",
+      "loja": "SUPER PORTUGAL",
+      "id": 161
+    },
+    {
+      "valor": 6.69,
+      "produto": "Cenoura",
+      "loja": "SUPER PORTUGAL",
+      "id": 162
+    },
+    {
+      "valor": 2.99,
+      "produto": "Acerola 500g",
+      "loja": "SUPER PORTUGAL",
+      "id": 163
+    },
+    {
+      "valor": 2.79,
+      "produto": "Mamão Formosa",
+      "loja": "UNI REDE",
+      "id": 164
+    },
+    {
+      "valor": 3.29,
+      "produto": "Goiaba",
+      "loja": "UNI REDE",
+      "id": 165
+    },
+    {
+      "valor": 4.69,
+      "produto": "Batata Inglesa",
+      "loja": "UNI REDE",
+      "id": 166
+    },
+    {
+      "valor": 4.79,
+      "produto": "Cebola",
+      "loja": "UNI REDE",
+      "id": 167
+    },
+    {
+      "valor": 19.9,
+      "produto": "Alho",
+      "loja": "UNI REDE",
+      "id": 168
+    },
+    {
+      "valor": 2.39,
+      "produto": "Laranja Pera",
+      "loja": "UNI REDE",
+      "id": 169
+    },
+    {
+      "valor": 2.99,
+      "produto": "Batata Doce",
+      "loja": "UNI REDE",
+      "id": 170
+    },
+    {
+      "valor": 3.39,
+      "produto": "Abacate",
+      "loja": "UNI REDE",
+      "id": 171
+    },
+    {
+      "valor": 5.49,
+      "produto": "Pimentão Verde",
+      "loja": "UNI REDE",
+      "id": 172
+    },
+    {
+      "valor": 5.89,
+      "produto": "Tomate Comum",
+      "loja": "UNI REDE",
+      "id": 173
+    }
+  ]
+}
 
 const getFinalMarketList = (initialMarketList) => {
   // remove a prop id que não utilizamos
