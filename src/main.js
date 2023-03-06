@@ -158,7 +158,7 @@ checkbox.addEventListener("change", () => {
 
 // let url = "/src/db.json";
 let url =
-  "https://gist.githubusercontent.com/stenioas/027a0287998189475786fac63ba7f69d/raw/54262396826070bc27d29b13c74c659db4c248ee/market-li-database.json";
+  "https://gist.githubusercontent.com/stenioas/027a0287998189475786fac63ba7f69d/raw";
 fetch(url)
   .then((response) => response.json())
   .then((response) => {
